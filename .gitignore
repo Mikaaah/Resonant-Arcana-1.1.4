@@ -1,0 +1,15 @@
+.gradle/
+**/build/
+run/
+run-server/
+run-client/
+libs/
+*.log
+classpath.txt
+.idea/
+.vscode/
+*.iml
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

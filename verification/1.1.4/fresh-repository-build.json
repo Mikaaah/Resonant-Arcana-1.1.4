@@ -1,0 +1,17 @@
+{
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.219",
+  "java": 21,
+  "version": "1.1.4",
+  "build_command": "./gradlew clean visibilityChecks jar",
+  "build_passed": true,
+  "configuration_assertions": 52678,
+  "spells": 228,
+  "release_sha256": "f0ac3f7dc90ed36ad0901fb3f226170e15a95fc48da066923284ab0be9742157",
+  "rebuild_sha256": "f0ac3f7dc90ed36ad0901fb3f226170e15a95fc48da066923284ab0be9742157",
+  "entry_contents_match_release": true,
+  "different_entries": [],
+  "extra_entries": [],
+  "missing_entries": [],
+  "runtime_checks_repeated": false
+}

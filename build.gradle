@@ -1,0 +1,52 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+version = '1.1.4'
+group = 'nl.townsandkingdoms.resonantarcana'
+base.archivesName = 'resonant-arcana'
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+neoForge {
+    version = '21.1.219'
+    runs {
+        client { client(); gameDirectory = file('run-client'); systemProperty 'resonant_arcana.visibilityClientChecks', System.getProperty('resonant_arcana.visibilityClientChecks', 'false'); programArguments.addAll('--width', '1100', '--height', '740') }
+        server { server(); programArgument '--nogui'; gameDirectory = file('run-server'); systemProperty 'resonant_arcana.integrationTest', System.getProperty('resonant_arcana.integrationTest', 'false'); systemProperty 'resonant_arcana.integrationReportPath', file('build/validation/server-integration.json').absolutePath }
+    }
+    mods { resonant_arcana { sourceSet sourceSets.main } }
+}
+dependencies {
+    compileOnly files('baseline/resonant-arcana-1.1.3.jar')
+    compileOnly fileTree('libs') { include '*.jar' }
+    if (!file('libs/irons-spellbooks.jar').isFile()) {
+        compileOnly('io.redspace:irons_spellbooks:1.21.1-3.16.3') { transitive = false }
+    }
+    testImplementation files('baseline/resonant-arcana-1.1.3.jar')
+}
+repositories { maven { url = 'https://code.redspace.io/releases' } }
+sourceSets.test.compileClasspath += sourceSets.main.compileClasspath
+sourceSets.test.runtimeClasspath += sourceSets.main.runtimeClasspath
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 21 }
+tasks.named('jar') { exclude '**/VisibilityClientChecks*' }
+tasks.named('processResources') {
+    dependsOn compileJava
+    inputs.file('config-translations.json')
+    from(zipTree('baseline/resonant-arcana-1.1.3.jar')) {
+        exclude { entry -> file("build/classes/java/main/${entry.path}").isFile() }
+    }
+    filesMatching('META-INF/neoforge.mods.toml') { filter { line -> line.replace('version="1.1.3"', 'version="1.1.4"') } }
+    filesMatching('pack.mcmeta') { filter { line -> line.replace('Kingdom Wands resources', 'Resonant Arcana resources') } }
+    filesMatching('release.json') { filter { line -> line.replace('1.1.3', '1.1.4') } }
+    doFirst { delete destinationDir }
+    doLast {
+        def langFile = new File(destinationDir, 'assets/resonant_arcana/lang/en_us.json')
+        def lang = new groovy.json.JsonSlurper().parse(langFile)
+        lang.putAll(new groovy.json.JsonSlurper().parse(file('config-translations.json')))
+        langFile.text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(lang)) + '\n'
+    }
+}
+tasks.register('printClasspath') { doLast { file('classpath.txt').text = sourceSets.main.runtimeClasspath.asPath } }
+tasks.register('visibilityChecks', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.output + sourceSets.main.output + sourceSets.test.compileClasspath + fileTree('libs') { include '*.jar' }
+    mainClass = 'nl.townsandkingdoms.resonantarcana.VisibilityConfigChecks'
+}

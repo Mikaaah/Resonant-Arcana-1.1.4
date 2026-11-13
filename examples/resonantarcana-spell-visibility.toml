@@ -1,0 +1,460 @@
+#Clear first-person view per spell. true = clear nearby particles from your aim; false = full particles.
+#Only affects your client in first person. Distant particles and third-person effects remain visible.
+#Changes apply immediately; no restart is required.
+[spells]
+	#Dragon Breath: true = clear first-person view; false = full effects.
+	dragon_breath = false
+	#Void Coronation: true = clear first-person view; false = full effects.
+	void_coronation = false
+	#Mirror Ice: true = clear first-person view; false = full effects.
+	mirror_ice = false
+	#Thunder Bolt: true = clear first-person view; false = full effects.
+	thunder_bolt = true
+	#Consecration: true = clear first-person view; false = full effects.
+	consecration = false
+	#Soul Cannon: true = clear first-person view; false = full effects.
+	soul_cannon = false
+	#Tremorzilla Cataclysm: true = clear first-person view; false = full effects.
+	tremorzilla_cataclysm = false
+	#Lodestone Snare: true = clear first-person view; false = full effects.
+	lodestone_snare = true
+	#Blood Needles: true = clear first-person view; false = full effects.
+	blood_needles = false
+	#Rift Collision: true = clear first-person view; false = full effects.
+	rift_collision = false
+	#Seraphic Descent: true = clear first-person view; false = full effects.
+	seraphic_descent = false
+	#Final Judgement: true = clear first-person view; false = full effects.
+	final_judgement = false
+	#Doom Beam: true = clear first-person view; false = full effects.
+	doom_beam = false
+	#Arcane Hand: true = clear first-person view; false = full effects.
+	arcane_hand = false
+	#Lightning: true = clear first-person view; false = full effects.
+	lightning = true
+	#I Am Atomic: true = clear first-person view; false = full effects.
+	i_am_atomic = false
+	#Sanctuary: true = clear first-person view; false = full effects.
+	sanctuary = false
+	#Evoker's Edict: true = clear first-person view; false = full effects.
+	evokers_edict = false
+	#Pressure Bell: true = clear first-person view; false = full effects.
+	pressure_bell = false
+	#Sandworm’s World Devourer: true = clear first-person view; false = full effects.
+	sandworm_world_devourer = false
+	#Dragon’s Volley: true = clear first-person view; false = full effects.
+	dragons_guard = false
+	#Glacier Step: true = clear first-person view; false = full effects.
+	glacier_step = false
+	#Blood Lance: true = clear first-person view; false = full effects.
+	blood_lance = false
+	#Helvar’s Rift: true = clear first-person view; false = full effects.
+	helvars_rift = false
+	#Wisp Lantern: true = clear first-person view; false = full effects.
+	wisp_lantern = false
+	#Spore Totem: true = clear first-person view; false = full effects.
+	spore_totem = false
+	#Abyssal Deluge: true = clear first-person view; false = full effects.
+	abyssal_deluge = false
+	#Frost Needle: true = clear first-person view; false = full effects.
+	frost_needle = false
+	#Sandworm’s Eruption: true = clear first-person view; false = full effects.
+	sandworms_eruption = false
+	#Amber Talon: true = clear first-person view; false = full effects.
+	amber_talon = false
+	#Amethyst Nova: true = clear first-person view; false = full effects.
+	amethyst_nova = false
+	#Thunder Wave: true = clear first-person view; false = full effects.
+	thunder_wave = true
+	#Spark: true = clear first-person view; false = full effects.
+	spark = false
+	#Resonant Guard: true = clear first-person view; false = full effects.
+	resonant_guard = false
+	#Worldroot Blessing: true = clear first-person view; false = full effects.
+	worldroot_catastrophe = false
+	#Arcane Repulse: true = clear first-person view; false = full effects.
+	arcane_repulse = false
+	#Phoenix Rush: true = clear first-person view; false = full effects.
+	phoenix_rush = false
+	#Miasma Field: true = clear first-person view; false = full effects.
+	miasma_field = false
+	#Hemorrhagic Shock: true = clear first-person view; false = full effects.
+	blood_stun = false
+	#Echo Decoy: true = clear first-person view; false = full effects.
+	echo_decoy = false
+	#Warscream: true = clear first-person view; false = full effects.
+	warscream = false
+	#Renewal Hymn: true = clear first-person view; false = full effects.
+	renewal_hymn = false
+	#Eventide Horizon: true = clear first-person view; false = full effects.
+	eventide_horizon = false
+	#Sanguine Drain: true = clear first-person view; false = full effects.
+	sanguine_drain = false
+	#Umbral Veil: true = clear first-person view; false = full effects.
+	soul_aura = false
+	#Void Domain: true = clear first-person view; false = full effects.
+	void_domain = false
+	#Sonic Scream: true = clear first-person view; false = full effects.
+	sonic_scream = false
+	#Planetary Polarity: true = clear first-person view; false = full effects.
+	planetary_polarity = true
+	#Absolution: true = clear first-person view; false = full effects.
+	absolution = false
+	#Launch: true = clear first-person view; false = full effects.
+	launch = false
+	#Thunderbrand: true = clear first-person view; false = full effects.
+	thunderbrand = true
+	#Crimson Ward: true = clear first-person view; false = full effects.
+	blood_block = false
+	#Night Bloom: true = clear first-person view; false = full effects.
+	night_bloom = false
+	#Kraken’s World Drown: true = clear first-person view; false = full effects.
+	kraken_world_drown = false
+	#Soul Siphon: true = clear first-person view; false = full effects.
+	soul_siphon = false
+	#Forsaken Sonar: true = clear first-person view; false = full effects.
+	forsaken_sonar = false
+	#Ignite: true = clear first-person view; false = full effects.
+	ignite = false
+	#Eternal Winter: true = clear first-person view; false = full effects.
+	eternal_winter = false
+	#Forsaken Eclipse: true = clear first-person view; false = full effects.
+	forsaken_eclipse = false
+	#Smite: true = clear first-person view; false = full effects.
+	smite = true
+	#Glacial Prison: true = clear first-person view; false = full effects.
+	glacial_prison = false
+	#Stun: true = clear first-person view; false = full effects.
+	stun = false
+	#Thorn Lash: true = clear first-person view; false = full effects.
+	thorn_lash = false
+	#Frostmint Hex: true = clear first-person view; false = full effects.
+	frostmint_hex = false
+	#Fire Comet: true = clear first-person view; false = full effects.
+	fire_comet = false
+	#Forlorn Reckoning: true = clear first-person view; false = full effects.
+	forlorn_reckoning = false
+	#Withering Hex: true = clear first-person view; false = full effects.
+	withering_hex = false
+	#Shadow Bolt: true = clear first-person view; false = full effects.
+	shadow_bolt = false
+	#Lux’s Caldera: true = clear first-person view; false = full effects.
+	lux_extinction = false
+	#Angel Scream: true = clear first-person view; false = full effects.
+	angel_scream = false
+	#Tempest Spear: true = clear first-person view; false = full effects.
+	tempest_spear = true
+	#Brine Bubble: true = clear first-person view; false = full effects.
+	brine_bubble = false
+	#Cryo Lance: true = clear first-person view; false = full effects.
+	cryo_lance = false
+	#Glacial Rupture: true = clear first-person view; false = full effects.
+	glacial_rupture = false
+	#Rift Bolt: true = clear first-person view; false = full effects.
+	gravity_bolt = false
+	#Crimson Reversal: true = clear first-person view; false = full effects.
+	crimson_reversal = false
+	#Event Horizon: true = clear first-person view; false = full effects.
+	event_horizon = false
+	#Sandworm’s Quicksand: true = clear first-person view; false = full effects.
+	sandworms_quicksand = false
+	#Glacial Counter: true = clear first-person view; false = full effects.
+	glacial_counter = false
+	#Orbital Blades: true = clear first-person view; false = full effects.
+	orbital_blades = false
+	#Solar Supernova: true = clear first-person view; false = full effects.
+	solar_supernova = false
+	#Umbral Seeker: true = clear first-person view; false = full effects.
+	soul_seeker = false
+	#Soul Prison: true = clear first-person view; false = full effects.
+	soul_prison = false
+	#Helvar’s Final Edict: true = clear first-person view; false = full effects.
+	helvar_final_edict = false
+	#Arcane Edge: true = clear first-person view; false = full effects.
+	arcane_edge = false
+	#Crimson Rupture: true = clear first-person view; false = full effects.
+	blood_explode = false
+	#Flame Wave: true = clear first-person view; false = full effects.
+	flame_wave = false
+	#Amber Stasis: true = clear first-person view; false = full effects.
+	amber_stasis = false
+	#Poison Wave: true = clear first-person view; false = full effects.
+	poison_wave = false
+	#Gorgon Gaze: true = clear first-person view; false = full effects.
+	gorgon_gaze = false
+	#Rime Thrust: true = clear first-person view; false = full effects.
+	rime_thrust = false
+	#Absolute Glaciation: true = clear first-person view; false = full effects.
+	absolute_glaciation = false
+	#Kraken’s Wrath: true = clear first-person view; false = full effects.
+	krakens_wrath = false
+	#Crimson Apotheosis: true = clear first-person view; false = full effects.
+	crimson_apotheosis = false
+	#Yeti’s World Heart: true = clear first-person view; false = full effects.
+	yeti_world_heart = false
+	#Verdant Awakening: true = clear first-person view; false = full effects.
+	verdant_awakening = false
+	#Oathbreaker Chains: true = clear first-person view; false = full effects.
+	oathbreaker_chains = false
+	#Last Stand: true = clear first-person view; false = full effects.
+	last_stand = false
+	#Candyland Catastrophe: true = clear first-person view; false = full effects.
+	candy_catastrophe = false
+	#Folded Passage: true = clear first-person view; false = full effects.
+	folded_passage = false
+	#Orbit Exchange: true = clear first-person view; false = full effects.
+	orbit_exchange = false
+	#Explosion: true = clear first-person view; false = full effects.
+	explosion = false
+	#Cinder Surge: true = clear first-person view; false = full effects.
+	flame_shock_wave = false
+	#Shrieking Pulse: true = clear first-person view; false = full effects.
+	shrieking_pulse = false
+	#Bulwark Chant: true = clear first-person view; false = full effects.
+	bulwark_chant = false
+	#Storm Step: true = clear first-person view; false = full effects.
+	storm_step = true
+	#Phantom Formation: true = clear first-person view; false = full effects.
+	phantom_formation = false
+	#Helvar’s Swordfall: true = clear first-person view; false = full effects.
+	helvars_swordfall = false
+	#Nightfall: true = clear first-person view; false = full effects.
+	nightfall = false
+	#Prismatic Ruin: true = clear first-person view; false = full effects.
+	prismatic_ruin = false
+	#Bramble Ring: true = clear first-person view; false = full effects.
+	bramble_ring = false
+	#Dawn Ward: true = clear first-person view; false = full effects.
+	dawn_ward = false
+	#Heaven’s Covenant: true = clear first-person view; false = full effects.
+	heavens_covenant = false
+	#Memory Fracture: true = clear first-person view; false = full effects.
+	memory_fracture = false
+	#Echo Bolt: true = clear first-person view; false = full effects.
+	echo_bolt = false
+	#Thunderclap: true = clear first-person view; false = full effects.
+	thunderclap = true
+	#Kraken’s Grasp: true = clear first-person view; false = full effects.
+	krakens_grasp = false
+	#Ashen Rebirth: true = clear first-person view; false = full effects.
+	ashen_rebirth = false
+	#Astral Comet: true = clear first-person view; false = full effects.
+	astral_comet = false
+	#Venom Bolt: true = clear first-person view; false = full effects.
+	venom_bolt = false
+	#Void Exile: true = clear first-person view; false = full effects.
+	void_exile = false
+	#Venom Sting: true = clear first-person view; false = full effects.
+	poison_spark = false
+	#Rift Draw: true = clear first-person view; false = full effects.
+	rift_draw = false
+	#Astral Apocalypse: true = clear first-person view; false = full effects.
+	astral_apocalypse = false
+	#Spell Prism: true = clear first-person view; false = full effects.
+	spell_prism = false
+	#Gumball Volley: true = clear first-person view; false = full effects.
+	gumball_volley = false
+	#Blessing of Vigor: true = clear first-person view; false = full effects.
+	blessing_of_vigor = false
+	#Force Pull: true = clear first-person view; false = full effects.
+	force_pull = false
+	#Crimson Harvest: true = clear first-person view; false = full effects.
+	crimson_harvest = false
+	#Cinder Fuse: true = clear first-person view; false = full effects.
+	cinder_fuse = false
+	#Ice Serpent: true = clear first-person view; false = full effects.
+	ice_serpent = false
+	#Chain Lightning: true = clear first-person view; false = full effects.
+	chain_lightning = true
+	#Dragon’s Primordial Inferno: true = clear first-person view; false = full effects.
+	dragon_primordial_inferno = false
+	#Echo Ward: true = clear first-person view; false = full effects.
+	echo_ward = false
+	#Hullbreaker’s Breach: true = clear first-person view; false = full effects.
+	hullbreaker_surge = false
+	#Fallout Bloom: true = clear first-person view; false = full effects.
+	fallout_bloom = false
+	#Cinder Vortex: true = clear first-person view; false = full effects.
+	fire_twister = false
+	#Thunder of the Heavens: true = clear first-person view; false = full effects.
+	thunder_of_the_heavens = true
+	#Crimson Strike: true = clear first-person view; false = full effects.
+	blood_spark = false
+	#Primordial Instinct: true = clear first-person view; false = full effects.
+	tectonic_stampede = false
+	#Acid Glob: true = clear first-person view; false = full effects.
+	acid_glob = false
+	#Rho Aias: true = clear first-person view; false = full effects.
+	rho_aias = false
+	#Blood Reap: true = clear first-person view; false = full effects.
+	blood_reap = false
+	#Arcane Strike: true = clear first-person view; false = full effects.
+	arcane_strike = false
+	#Umbral Step: true = clear first-person view; false = full effects.
+	umbral_step = false
+	#Arcane Devastator: true = clear first-person view; false = full effects.
+	arcane_devastator = false
+	#Corrosive Rain: true = clear first-person view; false = full effects.
+	corrosive_rain = false
+	#Thunder Pulse: true = clear first-person view; false = full effects.
+	thunder_pulse = true
+	#Dread Effigy: true = clear first-person view; false = full effects.
+	dread_effigy = false
+	#Yeti’s Glacial Wall: true = clear first-person view; false = full effects.
+	yetis_glacial_wall = false
+	#Spatial Shear: true = clear first-person view; false = full effects.
+	spatial_shear = false
+	#Mind Haze: true = clear first-person view; false = full effects.
+	confuse = false
+	#Suspension: true = clear first-person view; false = full effects.
+	gravity_choke = false
+	#Absolute Zero: true = clear first-person view; false = full effects.
+	absolute_zero = false
+	#Rift Well: true = clear first-person view; false = full effects.
+	gravity_well = false
+	#Leap: true = clear first-person view; false = full effects.
+	leap = false
+	#Desolate Dagger: true = clear first-person view; false = full effects.
+	desolate_dagger = false
+	#Fireball: true = clear first-person view; false = full effects.
+	fireball = false
+	#Veil of Night: true = clear first-person view; false = full effects.
+	veil_of_night = false
+	#Mending Light: true = clear first-person view; false = full effects.
+	mending_light = false
+	#Storm Call: true = clear first-person view; false = full effects.
+	storm_call = true
+	#Arc Ricochet: true = clear first-person view; false = full effects.
+	arc_ricochet = true
+	#Rift Blink: true = clear first-person view; false = full effects.
+	rift_blink = false
+	#Whiteout Hunt: true = clear first-person view; false = full effects.
+	whiteout_hunt = false
+	#Ember Veil: true = clear first-person view; false = full effects.
+	ember_veil = false
+	#Polarity Bolt: true = clear first-person view; false = full effects.
+	polarity_bolt = true
+	#Gravity Stamp: true = clear first-person view; false = full effects.
+	gravity_stamp = false
+	#Sculk Wave: true = clear first-person view; false = full effects.
+	sculk_wave = false
+	#Orbital Ray: true = clear first-person view; false = full effects.
+	orbital_ray = false
+	#Blood Price: true = clear first-person view; false = full effects.
+	blood_price = false
+	#DOOM: true = clear first-person view; false = full effects.
+	doom = false
+	#Tremorzilla Breath: true = clear first-person view; false = full effects.
+	tremorzilla_breath = false
+	#Primordial Sovereign: true = clear first-person view; false = full effects.
+	primordial_sovereign = false
+	#Solar Cataclysm: true = clear first-person view; false = full effects.
+	solar_cataclysm = false
+	#Crimson Eclipse: true = clear first-person view; false = full effects.
+	crimson_eclipse = false
+	#Blood Wave: true = clear first-person view; false = full effects.
+	blood_wave = false
+	#Soulblast: true = clear first-person view; false = full effects.
+	soulblast = false
+	#Crimson Tether: true = clear first-person view; false = full effects.
+	crimson_tether = false
+	#Battle Tempo: true = clear first-person view; false = full effects.
+	battle_tempo = true
+	#Pilgrim Step: true = clear first-person view; false = full effects.
+	pilgrim_step = false
+	#Helvar’s Fracture: true = clear first-person view; false = full effects.
+	helvars_fracture = false
+	#Arcane Bind: true = clear first-person view; false = full effects.
+	capture = false
+	#Shatter: true = clear first-person view; false = full effects.
+	shatter = false
+	#Judgement Ray: true = clear first-person view; false = full effects.
+	judgement_ray = false
+	#Cinder Cleave: true = clear first-person view; false = full effects.
+	cinder_cleave = false
+	#Warden’s Judgement: true = clear first-person view; false = full effects.
+	wardens_judgement = false
+	#Storm Rail: true = clear first-person view; false = full effects.
+	storm_rail = true
+	#Caramel Catapult: true = clear first-person view; false = full effects.
+	caramel_catapult = false
+	#Frozen Aegis: true = clear first-person view; false = full effects.
+	frozen_aegis = false
+	#Soul Ascendancy: true = clear first-person view; false = full effects.
+	soul_ascendancy = false
+	#Crystal Barrage: true = clear first-person view; false = full effects.
+	crystal_barrage = false
+	#EMP Surge: true = clear first-person view; false = full effects.
+	emp_surge = true
+	#Dread Mark: true = clear first-person view; false = full effects.
+	shadow_cage = false
+	#Funeral Bell: true = clear first-person view; false = full effects.
+	funeral_bell = false
+	#Sanguine Pact: true = clear first-person view; false = full effects.
+	sanguine_pact = false
+	#Luminous Dart: true = clear first-person view; false = full effects.
+	luminous_dart = false
+	#Umbral Wave: true = clear first-person view; false = full effects.
+	dark_wave = false
+	#Cinder Step: true = clear first-person view; false = full effects.
+	cinder_step = false
+	#Arcane Creation: true = clear first-person view; false = full effects.
+	arcane_creation = false
+	#Seraph Ascendant: true = clear first-person view; false = full effects.
+	seraph_ascendant = false
+	#Ice Spike Eruption: true = clear first-person view; false = full effects.
+	ice_spike_eruption = false
+	#World Pyre: true = clear first-person view; false = full effects.
+	world_pyre = false
+	#Blood Rend: true = clear first-person view; false = full effects.
+	blood_rend = false
+	#Dusk Cleave: true = clear first-person view; false = full effects.
+	dusk_cleave = false
+	#Soul Requiem: true = clear first-person view; false = full effects.
+	soul_requiem = false
+	#Abyssal World Tide: true = clear first-person view; false = full effects.
+	abyssal_world_tide = false
+	#Dragon’s Cataclysm: true = clear first-person view; false = full effects.
+	dragons_pyre = false
+	#Choir of the Lost: true = clear first-person view; false = full effects.
+	choir_of_the_lost = false
+	#Mycelial Relay: true = clear first-person view; false = full effects.
+	mycelial_relay = false
+	#Arcane Volley: true = clear first-person view; false = full effects.
+	arcane_volley = false
+	#Singularity: true = clear first-person view; false = full effects.
+	singularity = false
+	#Static Shock: true = clear first-person view; false = full effects.
+	static_shock = true
+	#Magnetar Annihilation: true = clear first-person view; false = full effects.
+	magnetar_annihilation = true
+	#Spellbreaker: true = clear first-person view; false = full effects.
+	spellbreaker = false
+	#Force Push: true = clear first-person view; false = full effects.
+	force_push = false
+	#Radiant Sweep: true = clear first-person view; false = full effects.
+	radiant_sweep = false
+	#Heaven’s Thunder: true = clear first-person view; false = full effects.
+	heavens_thunder = true
+	#Stolen Shadow: true = clear first-person view; false = full effects.
+	stolen_shadow = false
+	#Hailstorm: true = clear first-person view; false = full effects.
+	hailstorm = false
+	#Flamethrower: true = clear first-person view; false = full effects.
+	flame_thrower = false
+	#Kraken’s Undertow: true = clear first-person view; false = full effects.
+	krakens_undertow = false
+	#Viper Fangs: true = clear first-person view; false = full effects.
+	viper_fangs = false
+	#Martyr’s Aegis: true = clear first-person view; false = full effects.
+	martyrs_aegis = false
+	#Arcane Step: true = clear first-person view; false = full effects.
+	arcane_step = false
+	#Nuclear Strike: true = clear first-person view; false = full effects.
+	nuclear_strike = false
+	#Confection Apocalypse: true = clear first-person view; false = full effects.
+	confection_apocalypse = false
+	#Toxic Molt: true = clear first-person view; false = full effects.
+	toxic_molt = false
+	#Rime Nova: true = clear first-person view; false = full effects.
+	rime_nova = false

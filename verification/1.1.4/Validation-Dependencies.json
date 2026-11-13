@@ -1,0 +1,27 @@
+[
+  {
+    "name": "ironslib.jar",
+    "bytes": 406284,
+    "sha256": "3d0ad1003d6edeaad2500b9922267b4192d2c603cdd846fda339b168f4deff72"
+  },
+  {
+    "name": "geckolib.jar",
+    "bytes": 634531,
+    "sha256": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47"
+  },
+  {
+    "name": "playeranimator.jar",
+    "bytes": 203149,
+    "sha256": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92"
+  },
+  {
+    "name": "irons-spellbooks.jar",
+    "bytes": 13890046,
+    "sha256": "70cc7e37c48d45260eb101a4c536cd391b8e258ca95199bde4f06707b2d5623b"
+  },
+  {
+    "name": "curios.jar",
+    "bytes": 410690,
+    "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde"
+  }
+]
