@@ -1,23 +1,23 @@
-[← Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana) · [Get help](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[← Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana-1.1.4) · [Get help](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)
 
-# Spell catalogue
+# Spell catalogue — 1.1.4
 
-**Guide version 1.0.1 · 227 spells with all supported addons: 178 core, 19 Bosses’Rise and 30 Alex’s Caves.**
+**228 spell definitions: 179 core, 19 optional Bosses’Rise and 30 optional Alex’s Caves.** Counts include all supported optional content.
 
-All scrolls share one Spells creative tab. Browse by school, role or keywords in the debug archive.
+Browse by category. The detailed pages are generated from the verified 1.1.4 release catalogue. Individual first-person visibility toggles cover every definition; unavailable optional spells remain controlled by their integration.
 
-- [Area](https://github.com/Mikaaah/Resonant-Arcana/wiki/Area)
-- [Beam](https://github.com/Mikaaah/Resonant-Arcana/wiki/Beam)
-- [Boss Art](https://github.com/Mikaaah/Resonant-Arcana/wiki/Boss-Art)
-- [Cataclysm](https://github.com/Mikaaah/Resonant-Arcana/wiki/Cataclysm)
-- [Control](https://github.com/Mikaaah/Resonant-Arcana/wiki/Control)
-- [God](https://github.com/Mikaaah/Resonant-Arcana/wiki/God)
-- [Melee](https://github.com/Mikaaah/Resonant-Arcana/wiki/Melee)
-- [Mobility](https://github.com/Mikaaah/Resonant-Arcana/wiki/Mobility)
-- [Projectile](https://github.com/Mikaaah/Resonant-Arcana/wiki/Projectile)
-- [Summon](https://github.com/Mikaaah/Resonant-Arcana/wiki/Summon)
-- [Support](https://github.com/Mikaaah/Resonant-Arcana/wiki/Support)
+| Category | Spells |
+| --- | ---: |
+| [Projectiles](Projectile) | 24 |
+| [Beams & Channels](Beam) | 11 |
+| [Area Magic](Area) | 36 |
+| [Control](Control) | 25 |
+| [Movement](Mobility) | 14 |
+| [Support & Defense](Support) | 30 |
+| [Summons & Constructs](Summon) | 12 |
+| [Strikes & Drains](Melee) | 20 |
+| [Boss Arts](Boss-Art) | 13 |
+| [Cataclysms](Cataclysm) | 22 |
+| [God-tier Magic](God) | 21 |
 
-[Full ranked reference](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/blob/main/SPELLS.md)
-
-[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana/wiki/Home)
+[Visibility settings](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Configuration) · [Current presentation](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Spell-Presentation)

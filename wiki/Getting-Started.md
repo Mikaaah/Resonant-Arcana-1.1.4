@@ -1,4 +1,4 @@
-[← Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana) · [Get help](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[← Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana-1.1.4) · [Get help](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)
 
 # Getting started
 
@@ -20,7 +20,7 @@ Install the same Resonant Arcana version on **client and server**. Equip an insc
 
 ## Your first spellbook
 
-1. Obtain a compatible Iron’s spellbook or craft one of the three legendary books.
+1. Obtain a compatible Iron’s spellbook or craft one of the nine legendary books.
 2. Obtain a scroll through the Scroll Forge or the addon’s themed recipes.
 3. Inscribe it at Iron’s inscription table, then equip the book in the Curios spellbook slot.
 4. Use Iron’s normal spell selection and casting controls. Holding the book alone does not activate its equipped perks.
@@ -29,7 +29,7 @@ The debug wand is a creative testing item. Press **X** while using it to browse 
 
 ## Updating older worlds
 
-Back up the world before updating. Version 0.13 changed the registry namespace to `resonant_arcana` without legacy migration. Version 0.21 retired the ten school wands; current equipment is three inscribable books and one debug wand.
+Back up the world before updating. Version 0.13 changed the registry namespace to `resonant_arcana` without legacy migration. Version 0.21 retired the ten school wands; current equipment includes nine inscribable books and one debug wand.
 
 
-[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana/wiki/Home)
+[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Home)

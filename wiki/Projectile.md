@@ -1,6 +1,10 @@
+[← Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana-1.1.4) · [Get help](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)
+
 # Projectiles
 
-**Guide version 1.0.1.** Values are defaults before equipment, resistance and server settings. Two health points equal one heart.
+**Guide version 1.1.4.** Values below come from the packaged 1.1.4 catalogue, before equipment, resistance and server settings. Two health points equal one heart. Damage is per normal hit or pulse; descriptions explain multi-stage damage. Travel and release sequences follow the cast bar.
+
+Beam/projectile launch points and their visuals were raised in 1.1.2 to pass over one-block cover. Taller solid cover still blocks them. First-person particle preferences are configurable per spell; they do not change collision or damage.
 
 ### Spark
 
@@ -324,7 +328,7 @@ Fire a scarlet-and-azure magnetic bolt. Its first enemy impact deals damage and 
 
 Base release / active phase: **2.5s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Magnetic Caves · Novice**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:polarity_bolt`. Inspect ranks with `/resonantarcana spell polarity_bolt <rank>`.
 
@@ -344,7 +348,7 @@ Lob a glowing acid glob along your aim. It splashes on the first enemy or solid 
 
 Base release / active phase: **2.25s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Toxic Caves · Novice**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:acid_glob`. Inspect ranks with `/resonantarcana spell acid_glob <rank>`.
 
@@ -364,7 +368,7 @@ Launch a Deep One water bolt. Its first enemy impact deals damage and traps non-
 
 Base release / active phase: **2.5s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Abyssal Chasm · Novice**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:brine_bubble`. Inspect ranks with `/resonantarcana spell brine_bubble <rank>`.
 
@@ -384,7 +388,7 @@ Send a spectral Desolate Dagger along your aim. It pierces up to three enemies, 
 
 Base release / active phase: **2.25s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Forlorn Hollows · Novice**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:desolate_dagger`. Inspect ranks with `/resonantarcana spell desolate_dagger <rank>`.
 
@@ -404,11 +408,8 @@ Fire three native gumballs half a second apart. Each projectile bounces off one 
 
 Base release / active phase: **3.5s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Candy Cavity · Novice**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:gumball_volley`. Inspect ranks with `/resonantarcana spell gumball_volley <rank>`.
 
-
-<a id="beam"></a>
-
-[Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Report an issue](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Home)

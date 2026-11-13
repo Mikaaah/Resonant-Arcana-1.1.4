@@ -1,6 +1,8 @@
+[← Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana-1.1.4) · [Get help](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)
+
 # Support & Defense
 
-**Guide version 1.0.1.** Values are defaults before equipment, resistance and server settings. Two health points equal one heart.
+**Guide version 1.1.4.** Values below come from the packaged 1.1.4 catalogue, before equipment, resistance and server settings. Two health points equal one heart. Damage is per normal hit or pulse; descriptions explain multi-stage damage. Travel and release sequences follow the cast bar.
 
 ### Crimson Ward
 
@@ -396,7 +398,7 @@ Awaken your allies’ dinosaur instincts for twenty seconds. Primal Instinct gra
 
 Base release / active phase: **3s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Primordial Caves · Master**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:tectonic_stampede`. Inspect ranks with `/resonantarcana spell tectonic_stampede <rank>`.
 
@@ -488,7 +490,7 @@ Encapsulate yourself in amber for two seconds. Eligible incoming damage is block
 
 Base release / active phase: **2s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Primordial Caves · Master**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:amber_stasis`. Inspect ranks with `/resonantarcana spell amber_stasis <rank>`.
 
@@ -508,7 +510,7 @@ Cleanse up to eight Poison or Wither afflictions from nearby eligible allies. Af
 
 Base release / active phase: **1.5s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Toxic Caves · Master**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:fallout_bloom`. Inspect ranks with `/resonantarcana spell fallout_bloom <rank>`.
 
@@ -528,7 +530,7 @@ Raise a pressure dome for ten seconds. Allies receive Resistance II, Water Breat
 
 Base release / active phase: **10s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Abyssal Chasm · Master**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:pressure_bell`. Inspect ranks with `/resonantarcana spell pressure_bell <rank>`.
 
@@ -548,7 +550,4 @@ Instantly unfold a giant purple flower, then three separate violet shield discs 
 
 Spell ID: `resonant_arcana:rho_aias`. Inspect ranks with `/resonantarcana spell rho_aias <rank>`.
 
-
-<a id="summon"></a>
-
-[Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Report an issue](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Home)

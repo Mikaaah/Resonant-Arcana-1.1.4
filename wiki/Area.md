@@ -1,6 +1,8 @@
+[← Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana-1.1.4) · [Get help](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)
+
 # Area Magic
 
-**Guide version 1.0.1.** Values are defaults before equipment, resistance and server settings. Two health points equal one heart.
+**Guide version 1.1.4.** Values below come from the packaged 1.1.4 catalogue, before equipment, resistance and server settings. Two health points equal one heart. Damage is per normal hit or pulse; descriptions explain multi-stage damage. Travel and release sequences follow the cast bar.
 
 ### Blood Wave
 
@@ -604,11 +606,8 @@ Mark a breach in the ground. After a 1.2-second warning, a Hullbreaker rises fro
 
 Base release / active phase: **3s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Abyssal Chasm · Master**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:hullbreaker_surge`. Inspect ranks with `/resonantarcana spell hullbreaker_surge <rank>`.
 
-
-<a id="control"></a>
-
-[Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Report an issue](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Home)

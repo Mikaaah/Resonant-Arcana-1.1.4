@@ -1,6 +1,8 @@
+[← Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana-1.1.4) · [Get help](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)
+
 # Movement
 
-**Guide version 1.0.1.** Values are defaults before equipment, resistance and server settings. Two health points equal one heart.
+**Guide version 1.1.4.** Values below come from the packaged 1.1.4 catalogue, before equipment, resistance and server settings. Two health points equal one heart. Damage is per normal hit or pulse; descriptions explain multi-stage damage. Travel and release sequences follow the cast bar.
 
 ### Leap
 
@@ -234,11 +236,8 @@ Unroll a caramel launch pad for eight seconds. Allies on the pad wind up for 0.4
 
 Base release / active phase: **8s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Candy Cavity · Adept**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:caramel_catapult`. Inspect ranks with `/resonantarcana spell caramel_catapult <rank>`.
 
-
-<a id="support"></a>
-
-[Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Report an issue](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Home)

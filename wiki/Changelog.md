@@ -113,4 +113,4 @@ This release combines development after the CurseForge **0.1.0** baseline (inter
 Initial CurseForge release, corresponding to the internal 0.28 development baseline. Includes the nine-school spell catalogue, legendary spellbooks, searchable spell archive, Void Domain and Void Exile, optional Bosses’Rise integration, and the spell balance and presentation improvements delivered up to that baseline.
 
 
-[Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Report an issue](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Report an issue](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)

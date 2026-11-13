@@ -1,6 +1,8 @@
+[← Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana-1.1.4) · [Get help](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)
+
 # Boss Arts
 
-**Guide version 1.0.1.** Values are defaults before equipment, resistance and server settings. Two health points equal one heart.
+**Guide version 1.1.4.** Values below come from the packaged 1.1.4 catalogue, before equipment, resistance and server settings. Two health points equal one heart. Damage is per normal hit or pulse; descriptions explain multi-stage damage. Travel and release sequences follow the cast bar.
 
 ### Kraken’s Grasp
 
@@ -16,7 +18,7 @@ The full Kraken rises from beneath the marked ground, curls its tentacles and sl
 | IV | 56 | — | 75 |
 | V | 64 | — | 80 |
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:krakens_grasp`. Inspect ranks with `/resonantarcana spell krakens_grasp <rank>`.
 
@@ -34,7 +36,7 @@ Five ice spikes erupt in a line across a visible ground location. Each enemy can
 | IV | 31.5 | — | 55 |
 | V | 36 | — | 60 |
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:ice_spike_eruption`. Inspect ranks with `/resonantarcana spell ice_spike_eruption <rank>`.
 
@@ -52,7 +54,7 @@ Launch Helvar’s rift projectile. It stops at the first enemy or solid surface,
 | IV | 42 | — | 55 |
 | V | 48 | — | 60 |
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:helvars_rift`. Inspect ranks with `/resonantarcana spell helvars_rift <rank>`.
 
@@ -72,7 +74,7 @@ Four Kraken tentacles strike around the marked ground before a central, triple-d
 
 Base release / active phase: **7.5s**.
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:krakens_wrath`. Inspect ranks with `/resonantarcana spell krakens_wrath <rank>`.
 
@@ -90,7 +92,7 @@ A Kraken tentacle rises at a visible ground location. Its undertow pulls nearby 
 | IV | 45.5 | — | 83 |
 | V | 52 | — | 89 |
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:krakens_undertow`. Inspect ranks with `/resonantarcana spell krakens_undertow <rank>`.
 
@@ -110,7 +112,7 @@ Raise seven lingering ice spikes in a crescent across visible ground. Each enemy
 
 Base release / active phase: **3.1s**.
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:yetis_glacial_wall`. Inspect ranks with `/resonantarcana spell yetis_glacial_wall <rank>`.
 
@@ -128,7 +130,7 @@ Helvar’s rift projectile breaks against the first enemy or wall, releasing an 
 | IV | 38.5 | — | 78 |
 | V | 44 | — | 84 |
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:helvars_fracture`. Inspect ranks with `/resonantarcana spell helvars_fracture <rank>`.
 
@@ -148,7 +150,7 @@ Summon Helvar’s colossal sword above the mark and drive it into the ground. Th
 
 Base release / active phase: **2.8s**.
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:helvars_swordfall`. Inspect ranks with `/resonantarcana spell helvars_swordfall <rank>`.
 
@@ -166,7 +168,7 @@ The Sandworm’s own sand columns emerge in a row toward the aimed ground. The r
 | IV | 38.5 | — | 65 |
 | V | 44 | — | 70 |
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:sandworms_eruption`. Inspect ranks with `/resonantarcana spell sandworms_eruption <rank>`.
 
@@ -186,7 +188,7 @@ A spiralling sand vortex slows and draws visible enemies inward. Three sand colu
 
 Base release / active phase: **3s**.
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:sandworms_quicksand`. Inspect ranks with `/resonantarcana spell sandworms_quicksand <rank>`.
 
@@ -206,7 +208,7 @@ Conjure three blazing orbs, then launch them in sequence toward the marked groun
 
 Base release / active phase: **4s**.
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:dragons_guard`. Inspect ranks with `/resonantarcana spell dragons_guard <rank>`.
 
@@ -226,7 +228,7 @@ Mark visible ground with an ember ring. After a one-second warning, a descending
 
 Base release / active phase: **2.7s**.
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:dragons_pyre`. Inspect ranks with `/resonantarcana spell dragons_pyre <rank>`.
 
@@ -246,11 +248,8 @@ Anchor a compact spectral Helvar sword and bind up to three visible enemies with
 
 Base release / active phase: **8s**.
 
-Requires **Bosses’Rise 2.1.2** on client and server. Visual adapters use its installed models and textures; original boss AI and attack routines do not run.
+Requires **Bosses’Rise 2.1.2** on client and server. Models/textures come from the installed mod; original boss AI does not run.
 
 Spell ID: `resonant_arcana:oathbreaker_chains`. Inspect ranks with `/resonantarcana spell oathbreaker_chains <rank>`.
 
-
-<a id="cataclysm"></a>
-
-[Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Report an issue](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Home)

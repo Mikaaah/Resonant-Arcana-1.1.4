@@ -1,4 +1,4 @@
-[← Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana) · [Get help](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[← Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana-1.1.4) · [Get help](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)
 
 # Scroll attunement recipes
 
@@ -60,4 +60,4 @@ All recipes consume one paper, one ink, the listed catalyst and any listed proof
 | Dragon’s Primordial Inferno | Legendary | `minecraft:blaze_powder` | `block_factorys_bosses:dragon_bone` |
 
 
-[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana/wiki/Home)
+[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Home)

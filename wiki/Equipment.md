@@ -42,4 +42,4 @@ Display text uses the standard Forest spelling.
 The searchable debug wand is a creative testing tool. It exposes the enabled spells and category filters and has no survival recipe. Normal survival casting uses inscribed spellbooks.
 
 
-[Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Report an issue](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Report an issue](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)

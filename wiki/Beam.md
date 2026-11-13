@@ -1,6 +1,10 @@
+[← Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana-1.1.4) · [Get help](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)
+
 # Beams & Channels
 
-**Guide version 1.0.1.** Values are defaults before equipment, resistance and server settings. Two health points equal one heart.
+**Guide version 1.1.4.** Values below come from the packaged 1.1.4 catalogue, before equipment, resistance and server settings. Two health points equal one heart. Damage is per normal hit or pulse; descriptions explain multi-stage damage. Travel and release sequences follow the cast bar.
+
+Beam/projectile launch points and their visuals were raised in 1.1.2 to pass over one-block cover. Taller solid cover still blocks them. First-person particle preferences are configurable per spell; they do not change collision or damage.
 
 ### Flamethrower
 
@@ -168,7 +172,7 @@ Channel Tremorzilla’s native atomic breath from your body for five seconds. Ea
 
 Base release / active phase: **5s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Toxic Caves · Master**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:tremorzilla_breath`. Inspect ranks with `/resonantarcana spell tremorzilla_breath <rank>`.
 
@@ -188,11 +192,8 @@ Manifest the Forsaken’s jaws and release three aimed sonar waves. Each wave da
 
 Base release / active phase: **3.3s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Forlorn Hollows · Master**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:forsaken_sonar`. Inspect ranks with `/resonantarcana spell forsaken_sonar <rank>`.
 
-
-<a id="area"></a>
-
-[Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Report an issue](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Home)

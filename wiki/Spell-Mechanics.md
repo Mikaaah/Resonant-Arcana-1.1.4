@@ -1,4 +1,4 @@
-[← Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana) · [Get help](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[← Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana-1.1.4) · [Get help](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)
 
 # Spell mechanics
 
@@ -8,6 +8,6 @@ God-tier rituals have a 10-second base cast, 600 mana cost and four-minute base 
 
 Offensive spells protect allies and terrain and respect solid cover, server PvP and scoreboard friendly-fire rules. Team and claim mods may need their own integration.
 
-[Browse all spells](https://github.com/Mikaaah/Resonant-Arcana/wiki/Spell-Catalogue).
+[Browse all spells](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Spell-Catalogue).
 
-[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana/wiki/Home)
+[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Home)

@@ -1,6 +1,8 @@
+[← Guide home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki) · [Project](https://github.com/Mikaaah/Resonant-Arcana-1.1.4) · [Get help](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/issues)
+
 # Cataclysms
 
-**Guide version 1.0.1.** Values are defaults before equipment, resistance and server settings. Two health points equal one heart.
+**Guide version 1.1.4.** Values below come from the packaged 1.1.4 catalogue, before equipment, resistance and server settings. Two health points equal one heart. Damage is per normal hit or pulse; descriptions explain multi-stage damage. Travel and release sequences follow the cast bar.
 
 ### DOOM
 
@@ -28,8 +30,6 @@ Call three groups of falling stars around the mark. Each star damages enemies wi
 
 Base release / active phase: **4.4s**.
 
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
-
 Spell ID: `resonant_arcana:astral_apocalypse`. Inspect ranks with `/resonantarcana spell astral_apocalypse <rank>`.
 
 ### Crimson Eclipse
@@ -43,8 +43,6 @@ Release three blood tides around the mark, followed by a double-damage final tid
 | I | 80 | — | 460 |
 
 Base release / active phase: **4.5s**.
-
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
 
 Spell ID: `resonant_arcana:crimson_eclipse`. Inspect ranks with `/resonantarcana spell crimson_eclipse <rank>`.
 
@@ -60,8 +58,6 @@ Call five meteors around the mark. Each erupts in a five-block blast. A final fo
 
 Base release / active phase: **5s**.
 
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
-
 Spell ID: `resonant_arcana:world_pyre`. Inspect ranks with `/resonantarcana spell world_pyre <rank>`.
 
 ### Void Coronation
@@ -75,8 +71,6 @@ Flood the marked area with shadow and drifting void embers. Three expanding dama
 | I | 88 | — | 480 |
 
 Base release / active phase: **4.8s**.
-
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
 
 Spell ID: `resonant_arcana:void_coronation`. Inspect ranks with `/resonantarcana spell void_coronation <rank>`.
 
@@ -92,8 +86,6 @@ Call six lightning columns around the mark, each striking a six-block area. A fi
 
 Base release / active phase: **5.6s**.
 
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
-
 Spell ID: `resonant_arcana:heavens_thunder`. Inspect ranks with `/resonantarcana spell heavens_thunder <rank>`.
 
 ### Rift Collision
@@ -107,8 +99,6 @@ Pull visible enemies inward, then cut the area along two perpendicular lines. A 
 | I | 96 | — | 500 |
 
 Base release / active phase: **5.2s**.
-
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
 
 Spell ID: `resonant_arcana:rift_collision`. Inspect ranks with `/resonantarcana spell rift_collision <rank>`.
 
@@ -124,8 +114,6 @@ Unleash three soul pulses at four, eight and twelve blocks from the mark. Enemie
 
 Base release / active phase: **4.6s**.
 
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
-
 Spell ID: `resonant_arcana:soul_requiem`. Inspect ranks with `/resonantarcana spell soul_requiem <rank>`.
 
 ### Worldroot Blessing
@@ -139,8 +127,6 @@ Overgrow the mark with moss, flowering leaves and spores. Three pulses damage, p
 | I | 72 | — | 440 |
 
 Base release / active phase: **4.8s**.
-
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
 
 Spell ID: `resonant_arcana:worldroot_catastrophe`. Inspect ranks with `/resonantarcana spell worldroot_catastrophe <rank>`.
 
@@ -156,8 +142,6 @@ Summon a golden sword over the mark. Three holy pulses damage enemies and heal a
 
 Base release / active phase: **5.2s**.
 
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
-
 Spell ID: `resonant_arcana:final_judgement`. Inspect ranks with `/resonantarcana spell final_judgement <rank>`.
 
 ### Eternal Winter
@@ -171,8 +155,6 @@ Unleash a ten-second blizzard over the marked area. Eight pulses damage and free
 | I | 40 | — | 480 |
 
 Base release / active phase: **10s**.
-
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
 
 Spell ID: `resonant_arcana:eternal_winter`. Inspect ranks with `/resonantarcana spell eternal_winter <rank>`.
 
@@ -188,8 +170,6 @@ Lock your aim and channel five golden seals into a towering ignition beam. Relea
 
 Base release / active phase: **4.5s**.
 
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
-
 Spell ID: `resonant_arcana:explosion`. Inspect ranks with `/resonantarcana spell explosion <rank>`.
 
 ### I Am Atomic
@@ -203,8 +183,6 @@ Anchor a violet containment sphere and compress mana at a spectral sword. Hold e
 | I | 512 | — | 500 |
 
 Base release / active phase: **4s**.
-
-Single-rank Legendary. The listed damage is one normal impact or pulse; the description states the final multiplier. Casting can be interrupted.
 
 Spell ID: `resonant_arcana:i_am_atomic`. Inspect ranks with `/resonantarcana spell i_am_atomic <rank>`.
 
@@ -234,7 +212,7 @@ Compress opposing magnetic poles, then unleash a blue-white annihilation beam fo
 
 Base release / active phase: **7s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Magnetic Caves · Cataclysm**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:magnetar_annihilation`. Inspect ranks with `/resonantarcana spell magnetar_annihilation <rank>`.
 
@@ -250,7 +228,7 @@ Condense a molten tephra sun over the mark. Four rounds of volcanic vents telegr
 
 Base release / active phase: **6.3s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Primordial Caves · Cataclysm**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:lux_extinction`. Inspect ranks with `/resonantarcana spell lux_extinction <rank>`.
 
@@ -266,7 +244,7 @@ Mark a nuclear strike. A descending warhead detonates after a visible warning, r
 
 Base release / active phase: **9s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Toxic Caves · Cataclysm**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:nuclear_strike`. Inspect ranks with `/resonantarcana spell nuclear_strike <rank>`.
 
@@ -282,7 +260,7 @@ Open a deep-sea vortex at the mark. Four tidal pulses drag enemies inward before
 
 Base release / active phase: **6.5s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Abyssal Chasm · Cataclysm**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:abyssal_deluge`. Inspect ranks with `/resonantarcana spell abyssal_deluge <rank>`.
 
@@ -298,7 +276,7 @@ Call forth a colossal Forsaken apparition. Three growing sonar shockwaves damage
 
 Base release / active phase: **6s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Forlorn Hollows · Cataclysm**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:forlorn_reckoning`. Inspect ranks with `/resonantarcana spell forlorn_reckoning <rank>`.
 
@@ -314,7 +292,7 @@ Raise a candy-witch vortex over the mark. Four peppermint storms batter enemies 
 
 Base release / active phase: **6.5s**.
 
-Requires **Alex’s Caves 2.0.10** and its Citadel dependency on client and server. **Candy Cavity · Cataclysm**. Native visuals are provided by the installed mod; no boss AI or terrain destruction runs.
+Requires **Alex’s Caves 2.0.10** and Citadel on client and server. No native boss AI or terrain destruction runs.
 
 Spell ID: `resonant_arcana:candy_catastrophe`. Inspect ranks with `/resonantarcana spell candy_catastrophe <rank>`.
 
@@ -346,7 +324,4 @@ Base release / active phase: **12s**.
 
 Spell ID: `resonant_arcana:choir_of_the_lost`. Inspect ranks with `/resonantarcana spell choir_of_the_lost <rank>`.
 
-
-<a id="god"></a>
-
-[Guide home](https://github.com/Mikaaah/Resonant-Arcana/wiki) · [Report an issue](https://github.com/Mikaaah/Resonant-Arcana/issues)
+[← Wiki home](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Home)
