@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "irons_spellbooks:legendary_ink"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "result": {
+    "id": "irons_spellbooks:scroll",
+    "count": 1,
+    "components": {
+      "irons_spellbooks:spell_container": {
+        "maxSpells": 1,
+        "spellWheel": false,
+        "mustEquip": false,
+        "data": [
+          {
+            "id": "resonant_arcana:preserver_of_fortune",
+            "index": 0,
+            "level": 1
+          }
+        ]
+      }
+    }
+  }
+}

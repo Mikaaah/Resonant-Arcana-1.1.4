@@ -8,20 +8,18 @@
 
 <p align="center"><img src="https://img.shields.io/badge/Minecraft-1.21.1-5b8731?style=flat-square" alt="Minecraft 1.21.1"> <img src="https://img.shields.io/badge/NeoForge-d77828?style=flat-square" alt="NeoForge"> <a href="https://mikaaah.github.io/TownsAndKingdoms/projects/"><img src="https://img.shields.io/badge/Towns_%26_Kingdoms-Modding_Hub-7f384a?style=flat-square" alt="Towns & Kingdoms Modding Hub"></a></p>
 
-**Current build: 1.1.4** · Minecraft 1.21.1 · NeoForge · Java 21
+**Current build: 1.2.0** · Minecraft 1.21.1 · NeoForge · Java 21
 
-[Download 1.1.4](downloads/resonant-arcana-1.1.4-neoforge-1.21.1.jar) · [Release notes](CHANGELOG.md) · [Configuration](wiki/Configuration.md)
+[Download 1.2.0](downloads/resonant-arcana-1.2.0-neoforge-1.21.1.jar) · [Release notes](CHANGELOG.md) · [Configuration](wiki/Configuration.md)
 
-## What's new in 1.1.4
+## What's new in 1.2.0
 
-- Individual first-person visibility controls for **all 228 spells**, including optional integrations.
-- **Mods → Resonant Arcana → Config → First-person view**, with search, paging, reset defaults and immediate saving.
-- A separate `config/resonantarcana-spell-visibility.toml`: `true` clears nearby particles from your aim; `false` keeps the full effects. Lightning defaults to clear view; other spells keep full effects.
-- Includes the 1.1.2 particle and launch-height fixes and the 1.1.3 casting, God spell sound and visual changes: holding charge poses, timed impact sounds, hand-cast Tremorzilla beam, no dragon wings/flight, volcanic Primordial Sovereign and revised Eventide Horizon charge.
+- **Five Genshin-inspired Cataclysm bursts:** Zhongli’s Planet Befall, Qiqi’s Preserver of Fortune, Raiden’s Musou Shinsetsu, Venti’s Wind’s Grand Ode and Ganyu’s Celestial Shower.
+- **20% lower direct damage** for all 43 existing offensive God/Cataclysm spells.
+- Original icons, Legendary scroll recipes, casting poses, character search and per-spell visibility controls. **233 spells** with all integrations.
+- [Burst mechanics, base stats and recipes](docs/ELEMENTAL_BURSTS.md).
 
-**Update both client and server.** Visibility preferences stay local to each player.
-
-[Spell presentation](https://github.com/Mikaaah/Resonant-Arcana-1.1.4/wiki/Spell-Presentation) · [Release notes](CHANGELOG.md)
+The 1.1.4 first-person view controls and recent casting/audio fixes are preserved.
 
 ## Magic worth building around
 
@@ -64,11 +62,11 @@ Install the same Resonant Arcana version on **client and server**. Equip an insc
 
 ## Build and source status
 
-With Java 21, run `./gradlew clean visibilityChecks jar` (Windows: `gradlew.bat clean visibilityChecks jar`). Output: `build/libs/resonant-arcana-1.1.4.jar`.
+With Java 21, run `./gradlew clean visibilityChecks burstChecks jar` (Windows: `gradlew.bat clean visibilityChecks burstChecks jar`). Output: `build/libs/resonant-arcana-1.2.0.jar`.
 
 The current source update builds over the exact preserved 1.1.3 JAR in `baseline/`, which supplies unchanged classes and resources. This is a reproducible source overlay; the complete original 1.1.2/1.1.3 source has not been recovered. See [development notes](docs/DEVELOPMENT.md).
 
-The fresh build passed 52,678 configuration checks across 228 spells and produced a byte-for-byte match of the verified release. [Validation reports](verification/1.1.4/).
+Validation for this update is recorded in [verification/1.2.0](verification/1.2.0/). Earlier 1.1.4 reports remain version-labelled.
 
 ## Credits and license
 

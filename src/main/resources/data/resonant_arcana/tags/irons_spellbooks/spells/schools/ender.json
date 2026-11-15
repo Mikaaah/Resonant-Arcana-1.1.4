@@ -1,0 +1,88 @@
+{
+  "replace": false,
+  "values": [
+    "resonant_arcana:shadow_bolt",
+    "resonant_arcana:soul_seeker",
+    "resonant_arcana:dark_wave",
+    "resonant_arcana:nightfall",
+    "resonant_arcana:shadow_cage",
+    "resonant_arcana:soul_aura",
+    "resonant_arcana:gravity_bolt",
+    "resonant_arcana:gravity_well",
+    "resonant_arcana:force_push",
+    "resonant_arcana:force_pull",
+    "resonant_arcana:gravity_choke",
+    "resonant_arcana:singularity",
+    "resonant_arcana:event_horizon",
+    "resonant_arcana:doom",
+    "resonant_arcana:umbral_step",
+    "resonant_arcana:dusk_cleave",
+    "resonant_arcana:dread_effigy",
+    "resonant_arcana:veil_of_night",
+    "resonant_arcana:night_bloom",
+    "resonant_arcana:rift_blink",
+    "resonant_arcana:orbital_blades",
+    "resonant_arcana:prismatic_ruin",
+    "resonant_arcana:gravity_stamp",
+    "resonant_arcana:spatial_shear",
+    {
+      "id": "resonant_arcana:helvars_rift",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:helvars_fracture",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:helvars_swordfall",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:sandworms_eruption",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:sandworms_quicksand",
+      "required": false
+    },
+    "resonant_arcana:rift_draw",
+    "resonant_arcana:void_coronation",
+    "resonant_arcana:rift_collision",
+    "resonant_arcana:i_am_atomic",
+    "resonant_arcana:doom_beam",
+    "resonant_arcana:void_exile",
+    "resonant_arcana:void_domain",
+    {
+      "id": "resonant_arcana:desolate_dagger",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:forsaken_sonar",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:forlorn_reckoning",
+      "required": false
+    },
+    "resonant_arcana:eventide_horizon",
+    {
+      "id": "resonant_arcana:forsaken_eclipse",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:helvar_final_edict",
+      "required": false
+    },
+    "resonant_arcana:folded_passage",
+    "resonant_arcana:orbit_exchange",
+    {
+      "id": "resonant_arcana:stolen_shadow",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:oathbreaker_chains",
+      "required": false
+    },
+    "resonant_arcana:winds_grand_ode"
+  ]
+}

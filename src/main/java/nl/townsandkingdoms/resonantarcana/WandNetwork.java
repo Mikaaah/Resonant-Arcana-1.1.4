@@ -94,7 +94,7 @@ public final class WandNetwork {
             &&net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(player.getMainHandItem().getItem()).equals(message.wand))SpellEngine.action(player,message.slot+3);
     }
     public static void register(RegisterPayloadHandlersEvent e) {
-        var r=e.registrar("33");
+        var r=e.registrar("34");
         r.playToClient(Particles.TYPE,Particles.CODEC,(msg,ctx)->ctx.enqueueWork(()->FirstPersonEffects.handle(msg)));
         r.playToClient(RhoFocus.TYPE,RhoFocus.CODEC,(msg,ctx)->ctx.enqueueWork(()->RhoAiasEffects.handle(msg)));
         r.playToClient(OrbitalFocus.TYPE,OrbitalFocus.CODEC,(msg,ctx)->ctx.enqueueWork(()->OrbitalEffects.handle(msg)));
@@ -107,7 +107,7 @@ public final class WandNetwork {
         r.playToServer(Select.TYPE,Select.CODEC,(msg,ctx)->ctx.enqueueWork(()->{
             if(ctx.player() instanceof ServerPlayer p)select(p,msg);
         }));
-        r.playToClient(Visual.TYPE,Visual.CODEC,(msg,ctx)->ctx.enqueueWork(()->{NativeSpellEffects.visual(msg);AaaEffects.visual(msg);}));
+        r.playToClient(Visual.TYPE,Visual.CODEC,(msg,ctx)->ctx.enqueueWork(()->{if(msg.valid()&&ElementalBursts.handles(Spell.values()[msg.spell()]))BurstClientEffects.visual(msg);else {NativeSpellEffects.visual(msg);AaaEffects.visual(msg);}}));
         r.playToClient(Burst.TYPE,Burst.CODEC,(msg,ctx)->ctx.enqueueWork(()->WandClient.burst(msg)));
     }
 }

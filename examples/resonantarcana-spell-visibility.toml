@@ -20,6 +20,8 @@
 	lodestone_snare = true
 	#Blood Needles: true = clear first-person view; false = full effects.
 	blood_needles = false
+	#Adeptus Art: Preserver of Fortune: true = clear first-person view; false = full effects.
+	preserver_of_fortune = false
 	#Rift Collision: true = clear first-person view; false = full effects.
 	rift_collision = false
 	#Seraphic Descent: true = clear first-person view; false = full effects.
@@ -42,6 +44,8 @@
 	pressure_bell = false
 	#Sandworm’s World Devourer: true = clear first-person view; false = full effects.
 	sandworm_world_devourer = false
+	#Secret Art: Musou Shinsetsu: true = clear first-person view; false = full effects.
+	musou_shinsetsu = true
 	#Dragon’s Volley: true = clear first-person view; false = full effects.
 	dragons_guard = false
 	#Glacier Step: true = clear first-person view; false = full effects.
@@ -168,6 +172,8 @@
 	soul_seeker = false
 	#Soul Prison: true = clear first-person view; false = full effects.
 	soul_prison = false
+	#Wind's Grand Ode: true = clear first-person view; false = full effects.
+	winds_grand_ode = false
 	#Helvar’s Final Edict: true = clear first-person view; false = full effects.
 	helvar_final_edict = false
 	#Arcane Edge: true = clear first-person view; false = full effects.
@@ -264,6 +270,8 @@
 	cinder_fuse = false
 	#Ice Serpent: true = clear first-person view; false = full effects.
 	ice_serpent = false
+	#Planet Befall: true = clear first-person view; false = full effects.
+	planet_befall = false
 	#Chain Lightning: true = clear first-person view; false = full effects.
 	chain_lightning = true
 	#Dragon’s Primordial Inferno: true = clear first-person view; false = full effects.
@@ -430,6 +438,8 @@
 	magnetar_annihilation = true
 	#Spellbreaker: true = clear first-person view; false = full effects.
 	spellbreaker = false
+	#Celestial Shower: true = clear first-person view; false = full effects.
+	celestial_shower = false
 	#Force Push: true = clear first-person view; false = full effects.
 	force_push = false
 	#Radiant Sweep: true = clear first-person view; false = full effects.

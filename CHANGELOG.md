@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.2.0 — Elemental Bursts
+
+- Reduced direct damage by 20% for all 43 existing offensive God and Cataclysm spells.
+- Added five Legendary Cataclysm bursts inspired by Zhongli, Qiqi, Raiden, Venti and Ganyu. [Mechanics and recipes](docs/ELEMENTAL_BURSTS.md).
+- Planet Befall drops a giant stone meteor and applies four seconds of Petrified, blocking movement, attacks and casting.
+- Preserver of Fortune heals allies and marks enemies for healing on allied direct hits, with a shared one-second interval per attacker.
+- Musou Shinsetsu releases a sword slash and four lightning cuts; Wind’s Grand Ode pulls ordinary enemies into an eight-pulse vortex; Celestial Shower drops twelve targeted icicles.
+- Added original icons, Legendary scroll recipes, casting poses, search keywords and per-spell first-person visibility settings for all five spells. The full optional catalogue contains 233 spells.
+- Preserved 1.1.4 visibility behavior and current audio, animations, optional integrations and terrain protection. Client and server must both use 1.2.0.
+
 ## 1.1.4 — Per-spell first-person visibility
 
 - Added a separate `resonantarcana-spell-visibility.toml` client file with true/false settings for all 228 spells.

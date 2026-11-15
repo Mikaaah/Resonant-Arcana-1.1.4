@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "resonant_arcana:magnetar_annihilation",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:lux_extinction",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:nuclear_strike",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:abyssal_deluge",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:forlorn_reckoning",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:candy_catastrophe",
+      "required": false
+    },
+    "resonant_arcana:planet_befall",
+    "resonant_arcana:preserver_of_fortune",
+    "resonant_arcana:musou_shinsetsu",
+    "resonant_arcana:winds_grand_ode",
+    "resonant_arcana:celestial_shower"
+  ]
+}

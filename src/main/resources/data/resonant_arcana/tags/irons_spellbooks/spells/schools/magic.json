@@ -1,0 +1,40 @@
+{
+  "replace": false,
+  "values": [
+    "resonant_arcana:spark",
+    "resonant_arcana:arcane_strike",
+    "resonant_arcana:confuse",
+    "resonant_arcana:stun",
+    "resonant_arcana:capture",
+    "resonant_arcana:astral_comet",
+    "resonant_arcana:arcane_repulse",
+    "resonant_arcana:launch",
+    "resonant_arcana:leap",
+    "resonant_arcana:arcane_volley",
+    "resonant_arcana:evokers_edict",
+    "resonant_arcana:arcane_step",
+    "resonant_arcana:arcane_edge",
+    "resonant_arcana:phantom_formation",
+    "resonant_arcana:spellbreaker",
+    "resonant_arcana:astral_apocalypse",
+    "resonant_arcana:arcane_devastator",
+    {
+      "id": "resonant_arcana:gumball_volley",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:candy_catastrophe",
+      "required": false
+    },
+    "resonant_arcana:arcane_creation",
+    {
+      "id": "resonant_arcana:confection_apocalypse",
+      "required": false
+    },
+    "resonant_arcana:orbital_ray",
+    "resonant_arcana:arcane_hand",
+    "resonant_arcana:spell_prism",
+    "resonant_arcana:rho_aias",
+    "resonant_arcana:planet_befall"
+  ]
+}

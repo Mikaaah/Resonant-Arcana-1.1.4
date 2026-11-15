@@ -1,0 +1,68 @@
+{
+  "replace": false,
+  "values": [
+    "resonant_arcana:glacial_rupture",
+    "resonant_arcana:frost_needle",
+    "resonant_arcana:ice_serpent",
+    "resonant_arcana:rime_nova",
+    "resonant_arcana:cryo_lance",
+    "resonant_arcana:frozen_aegis",
+    "resonant_arcana:glacier_step",
+    "resonant_arcana:shatter",
+    "resonant_arcana:hailstorm",
+    "resonant_arcana:glacial_prison",
+    "resonant_arcana:crystal_barrage",
+    "resonant_arcana:absolute_zero",
+    "resonant_arcana:rime_thrust",
+    {
+      "id": "resonant_arcana:ice_spike_eruption",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:yetis_glacial_wall",
+      "required": false
+    },
+    "resonant_arcana:glacial_counter",
+    "resonant_arcana:eternal_winter",
+    {
+      "id": "resonant_arcana:brine_bubble",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:hullbreaker_surge",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:abyssal_deluge",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:frostmint_hex",
+      "required": false
+    },
+    "resonant_arcana:absolute_glaciation",
+    {
+      "id": "resonant_arcana:abyssal_world_tide",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:kraken_world_drown",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:yeti_world_heart",
+      "required": false
+    },
+    "resonant_arcana:mirror_ice",
+    {
+      "id": "resonant_arcana:pressure_bell",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:whiteout_hunt",
+      "required": false
+    },
+    "resonant_arcana:preserver_of_fortune",
+    "resonant_arcana:celestial_shower"
+  ]
+}

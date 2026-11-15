@@ -1,0 +1,50 @@
+{
+  "replace": false,
+  "values": [
+    "resonant_arcana:doom",
+    "resonant_arcana:astral_apocalypse",
+    "resonant_arcana:crimson_eclipse",
+    "resonant_arcana:world_pyre",
+    "resonant_arcana:void_coronation",
+    "resonant_arcana:heavens_thunder",
+    "resonant_arcana:rift_collision",
+    "resonant_arcana:soul_requiem",
+    "resonant_arcana:worldroot_catastrophe",
+    "resonant_arcana:final_judgement",
+    "resonant_arcana:eternal_winter",
+    "resonant_arcana:explosion",
+    "resonant_arcana:i_am_atomic",
+    "resonant_arcana:doom_beam",
+    {
+      "id": "resonant_arcana:magnetar_annihilation",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:lux_extinction",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:nuclear_strike",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:abyssal_deluge",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:forlorn_reckoning",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:candy_catastrophe",
+      "required": false
+    },
+    "resonant_arcana:orbital_ray",
+    "resonant_arcana:choir_of_the_lost",
+    "resonant_arcana:planet_befall",
+    "resonant_arcana:preserver_of_fortune",
+    "resonant_arcana:musou_shinsetsu",
+    "resonant_arcana:winds_grand_ode",
+    "resonant_arcana:celestial_shower"
+  ]
+}

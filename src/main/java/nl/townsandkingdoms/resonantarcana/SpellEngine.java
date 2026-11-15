@@ -36,7 +36,7 @@ public final class SpellEngine {
     private SpellEngine() {}
     static boolean activeFor(ServerPlayer player,Spell s){return ACTIVE.stream().anyMatch(c->c.owner.equals(player.getUUID())&&c.spell==s);}
     public static int activeCount(){return ACTIVE.size();}
-    public static void clear(){ACTIVE.forEach(SpellEngine::cleanup);AdvancedSpells.clear();ExpansionSpells.clear();GodSpells.clear();OrbitalRay.clear();ACTIVE.clear();COOLDOWNS.clear();LAST_ACTION.clear();ticks=0;visualPoints=0;SpellVisuals.tick();}
+    public static void clear(){ACTIVE.forEach(SpellEngine::cleanup);AdvancedSpells.clear();ExpansionSpells.clear();GodSpells.clear();OrbitalRay.clear();BurstStatus.clear();ACTIVE.clear();COOLDOWNS.clear();LAST_ACTION.clear();ticks=0;visualPoints=0;SpellVisuals.tick();}
     public static void action(ServerPlayer player,int action) {
         if(action<0||!player.isAlive()||player.isSpectator())return;
         ItemStack stack=player.getMainHandItem();
@@ -60,6 +60,8 @@ public final class SpellEngine {
         if(!spell.available()||!player.isAlive()||player.isSpectator()||ACTIVE.size()>=ArcanaConfig.MAX_ACTIVE.get()||ACTIVE.stream().filter(c->c.owner.equals(player.getUUID())).count()>=ArcanaConfig.PER_PLAYER_LIMIT.get())return false;
         if(COOLDOWNS.getOrDefault(player.getUUID(),Map.of()).getOrDefault(spell.cooldownKey(),0L)>ticks)return false;
         Vec3 start=player.getEyePosition();
+        if(BurstStatus.petrified(player))return false;
+        if(ElementalBursts.handles(spell)&&!ElementalBursts.canStart(player,spell))return false;
         if(!SpellActions.canStart(player,spell))return false;
         return !requiresTarget(spell)||target(player,start,clipLoaded(player.serverLevel(),start,player.getLookAngle(),spell.range,player),0.5)!=null;
     }
@@ -68,6 +70,7 @@ public final class SpellEngine {
         if(TacticalAudio.handles(spell)&&elapsed%4==0)SpellLoops.sync(player,spell,true,false,0,progress);
         Vec3 dir=player.getLookAngle().normalize(),eye=player.getEyePosition();
         if(TacticalAudio.handles(spell)){if(elapsed%4==0){Vec3 focus=clipLoaded(player.serverLevel(),eye,dir,1.7,player);SpellVisuals.send(player.serverLevel(),spell,SpellVisuals.Stage.CHARGE,focus,focus.add(dir),.5+progress);}return;}
+        if(ElementalBursts.handles(spell)){ElementalBursts.charge(player,spell,progress,elapsed);return;}
         if(spell==Spell.ORBITAL_RAY){OrbitalRay.charge(player,progress,elapsed);return;}
         if(GodSpells.handles(spell)){GodSpells.charge(player,spell,progress,elapsed);return;}
         if(CavesCompat.optional(spell)){CavesCompat.charge(player,spell,progress,elapsed);return;}
@@ -111,6 +114,8 @@ public final class SpellEngine {
     }
     private static boolean cast(ServerPlayer player,Spell spell,BookCast book) {
         try(var visibilityScope=SpellParticleScope.enter(spell)){
+        if(BurstStatus.petrified(player))return false;
+        if(ElementalBursts.handles(spell)&&!ElementalBursts.canStart(player,spell))return false;
         if(!SpellActions.canStart(player,spell))return false;
         if(!spell.available()||!player.isAlive()||player.isSpectator())return false;
         var cooldowns=COOLDOWNS.computeIfAbsent(player.getUUID(),id->new HashMap<>());
@@ -143,7 +148,8 @@ public final class SpellEngine {
         if(!RecordedSpells.handles(spell)&&(book==null||!book.prepared()))SpellAudio.cast(player,spell);
         SpellVisuals.send(level,spell,SpellVisuals.Stage.CAST,muzzle,muzzle.add(direction),0.65);
 
-        if(SpellActions.handles(spell.kind))timed=SpellActions.begin(cast);else switch(spell.kind){
+        if(ElementalBursts.handles(spell)){if(!ElementalBursts.begin(cast))return false;}
+        else if(SpellActions.handles(spell.kind))timed=SpellActions.begin(cast);else switch(spell.kind){
             case TARGET, CONFUSE, STUN, LAUNCH, PUSH, PULL, SIPHON -> {
                 timed=false;
                 if(target==null){message(player,SpellText.text("message.aim_at_a_living_target_within_range","Aim at a living target within range"));return false;}
@@ -199,14 +205,14 @@ public final class SpellEngine {
         }
     }
     private static boolean requiresTarget(Spell spell){return switch(spell.kind){case TARGET,CONFUSE,STUN,CAPTURE,LAUNCH,PUSH,PULL,CHOKE,CHAIN,SEEKER,SIPHON,MARK,SUSPEND,TETHER,EXECUTE,EXILE->true;default->false;};}
-    private static void cleanup(Cast c){RhoAias.cleanup(c);ExpansionSpells.cleanup(c);SpellLoops.stop(c.caster,c.spell,true);if(c.spell==Spell.TREMORZILLA_BREATH||c.spell==Spell.TREMORZILLA_CATACLYSM)SpellAudio.world(c.level,c.pos,"alexscaves:tremorzilla_beam_end",.8f,1);GodSpells.cleanup(c);OrbitalRay.cleanup(c);VoidDomain.cleanup(c);BossesRiseCompat.cleanup(c);AdvancedSpells.cleanup(c);SpellCentrepieces.cleanup(c);SpecialSpells.cleanup(c);}
+    private static void cleanup(Cast c){ElementalBursts.cleanup(c);RhoAias.cleanup(c);ExpansionSpells.cleanup(c);SpellLoops.stop(c.caster,c.spell,true);if(c.spell==Spell.TREMORZILLA_BREATH||c.spell==Spell.TREMORZILLA_CATACLYSM)SpellAudio.world(c.level,c.pos,"alexscaves:tremorzilla_beam_end",.8f,1);GodSpells.cleanup(c);OrbitalRay.cleanup(c);VoidDomain.cleanup(c);BossesRiseCompat.cleanup(c);AdvancedSpells.cleanup(c);SpellCentrepieces.cleanup(c);SpecialSpells.cleanup(c);}
     public static void tick(){
-        ticks++;visualPoints=0;SpellVisuals.tick();
+        ticks++;BurstStatus.tick();visualPoints=0;SpellVisuals.tick();
         VoidExile.tick(net.neoforged.neoforge.server.ServerLifecycleHooks.getCurrentServer());
         for(Iterator<Cast> it=ACTIVE.iterator();it.hasNext();){Cast c=it.next();
             ServerPlayer owner=c.level.getServer().getPlayerList().getPlayer(c.owner);
             // Fake players are only allowed through the explicitly gated integration fixture.
-            if(owner==null&&IntegrationChecks.enabled())owner=c.testOwner;
+            if(owner==null&&(IntegrationChecks.enabled()||Boolean.getBoolean("resonant_arcana.burstChecks")))owner=c.testOwner;
             if(owner==null||!owner.isAlive()||owner.isSpectator()||owner.serverLevel()!=c.level||c.age++>=c.duration||!c.level.hasChunkAt(BlockPos.containing(c.pos))){cleanup(c);it.remove();continue;}
             c.caster=owner;
             if(!advance(c)){cleanup(c);it.remove();}
@@ -221,6 +227,7 @@ public final class SpellEngine {
         try(var visibilityScope=SpellParticleScope.enter(c.spell)){
         // Sustained cues are bounded to one per cast per second.
         if(!TacticalAudio.handles(c.spell)&&!GodSpells.handles(c.spell)&&!CavesCompat.optional(c.spell)&&!RecordedSpells.handles(c.spell)&&!BossesRiseCompat.optional(c.spell)&&c.spell.kind!=Spell.Kind.WARCRY&&c.spell.kind!=Spell.Kind.CANNON&&c.spell.kind!=Spell.Kind.DOOM&&c.spell.kind!=Spell.Kind.CATACLYSM&&c.age%20==1)SpellAudio.world(c.level,c.pos,SpellAudio.sustainId(c.spell),0.55f,1.0f);
+        if(ElementalBursts.handles(c.spell))return ElementalBursts.tick(c);
         if(SpellActions.handles(c.spell.kind))return SpellActions.tick(c);
         switch(c.spell.kind){
             case DOOM -> {
@@ -714,6 +721,7 @@ public final class SpellEngine {
         final List<Entity> centrepieces=new ArrayList<>();
         final List<Entity> bossVisuals=new ArrayList<>();final List<Vec3> eruptionPoints=new ArrayList<>();
         final List<java.util.UUID> taunted=new ArrayList<>();float weaponBonus,drained;
+        ElementalBursts.State burst;
         AdvancedSpells.State advanced;GodSpells.State god;AngelScream.State scream;ExpansionSpells.State expansion;ExpansionSpells.PrismRoute prism;
         BossesRiseCompat.State bossState;CavesSpells.State cave;
         BookCast book;final ServerPlayer testOwner;ServerPlayer caster;Vec3 pos,anchor,travel;int age,duration,impactAge;double distance,nextBurst=4;long lastImpactTick=-1000;

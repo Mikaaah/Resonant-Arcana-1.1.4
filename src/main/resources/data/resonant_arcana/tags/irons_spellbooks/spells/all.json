@@ -1,0 +1,385 @@
+{
+  "replace": false,
+  "values": [
+    "resonant_arcana:spark",
+    "resonant_arcana:arcane_strike",
+    "resonant_arcana:blood_spark",
+    "resonant_arcana:poison_spark",
+    "resonant_arcana:blood_wave",
+    "resonant_arcana:poison_wave",
+    "resonant_arcana:flame_wave",
+    "resonant_arcana:confuse",
+    "resonant_arcana:stun",
+    "resonant_arcana:capture",
+    "resonant_arcana:astral_comet",
+    "resonant_arcana:fire_comet",
+    "resonant_arcana:arcane_repulse",
+    "resonant_arcana:fireball",
+    "resonant_arcana:ignite",
+    "resonant_arcana:launch",
+    "resonant_arcana:leap",
+    "resonant_arcana:lightning",
+    "resonant_arcana:smite",
+    "resonant_arcana:fire_twister",
+    "resonant_arcana:flame_thrower",
+    "resonant_arcana:flame_shock_wave",
+    "resonant_arcana:blood_explode",
+    "resonant_arcana:blood_stun",
+    "resonant_arcana:blood_block",
+    "resonant_arcana:shadow_bolt",
+    "resonant_arcana:soul_seeker",
+    "resonant_arcana:dark_wave",
+    "resonant_arcana:nightfall",
+    "resonant_arcana:shadow_cage",
+    "resonant_arcana:soul_aura",
+    "resonant_arcana:thunder_bolt",
+    "resonant_arcana:chain_lightning",
+    "resonant_arcana:thunder_wave",
+    "resonant_arcana:storm_call",
+    "resonant_arcana:thunder_pulse",
+    "resonant_arcana:static_shock",
+    "resonant_arcana:gravity_bolt",
+    "resonant_arcana:gravity_well",
+    "resonant_arcana:force_push",
+    "resonant_arcana:force_pull",
+    "resonant_arcana:gravity_choke",
+    "resonant_arcana:singularity",
+    "resonant_arcana:echo_bolt",
+    "resonant_arcana:sculk_wave",
+    "resonant_arcana:sonic_scream",
+    "resonant_arcana:soul_siphon",
+    "resonant_arcana:soul_prison",
+    "resonant_arcana:shrieking_pulse",
+    "resonant_arcana:amethyst_nova",
+    "resonant_arcana:echo_ward",
+    "resonant_arcana:arcane_volley",
+    "resonant_arcana:sanguine_drain",
+    "resonant_arcana:blood_lance",
+    "resonant_arcana:ember_veil",
+    "resonant_arcana:venom_bolt",
+    "resonant_arcana:miasma_field",
+    "resonant_arcana:withering_hex",
+    "resonant_arcana:soul_cannon",
+    "resonant_arcana:solar_cataclysm",
+    "resonant_arcana:tempest_spear",
+    "resonant_arcana:event_horizon",
+    "resonant_arcana:doom",
+    "resonant_arcana:sanctuary",
+    "resonant_arcana:glacial_rupture",
+    "resonant_arcana:evokers_edict",
+    "resonant_arcana:arcane_step",
+    "resonant_arcana:blood_needles",
+    "resonant_arcana:blood_reap",
+    "resonant_arcana:crimson_tether",
+    "resonant_arcana:sanguine_pact",
+    "resonant_arcana:crimson_harvest",
+    "resonant_arcana:cinder_step",
+    "resonant_arcana:phoenix_rush",
+    "resonant_arcana:dragon_breath",
+    "resonant_arcana:umbral_step",
+    "resonant_arcana:dusk_cleave",
+    "resonant_arcana:dread_effigy",
+    "resonant_arcana:veil_of_night",
+    "resonant_arcana:night_bloom",
+    "resonant_arcana:storm_step",
+    "resonant_arcana:thunderclap",
+    "resonant_arcana:arc_ricochet",
+    "resonant_arcana:rift_blink",
+    "resonant_arcana:orbital_blades",
+    "resonant_arcana:prismatic_ruin",
+    "resonant_arcana:gravity_stamp",
+    "resonant_arcana:spatial_shear",
+    "resonant_arcana:wisp_lantern",
+    "resonant_arcana:resonant_guard",
+    "resonant_arcana:memory_fracture",
+    "resonant_arcana:thorn_lash",
+    "resonant_arcana:viper_fangs",
+    "resonant_arcana:bramble_ring",
+    "resonant_arcana:toxic_molt",
+    "resonant_arcana:spore_totem",
+    "resonant_arcana:corrosive_rain",
+    "resonant_arcana:gorgon_gaze",
+    "resonant_arcana:luminous_dart",
+    "resonant_arcana:mending_light",
+    "resonant_arcana:blessing_of_vigor",
+    "resonant_arcana:consecration",
+    "resonant_arcana:radiant_sweep",
+    "resonant_arcana:pilgrim_step",
+    "resonant_arcana:absolution",
+    "resonant_arcana:dawn_ward",
+    "resonant_arcana:judgement_ray",
+    "resonant_arcana:seraphic_descent",
+    "resonant_arcana:renewal_hymn",
+    "resonant_arcana:frost_needle",
+    "resonant_arcana:ice_serpent",
+    "resonant_arcana:rime_nova",
+    "resonant_arcana:cryo_lance",
+    "resonant_arcana:frozen_aegis",
+    "resonant_arcana:glacier_step",
+    "resonant_arcana:shatter",
+    "resonant_arcana:hailstorm",
+    "resonant_arcana:glacial_prison",
+    "resonant_arcana:crystal_barrage",
+    "resonant_arcana:absolute_zero",
+    "resonant_arcana:warscream",
+    "resonant_arcana:soulblast",
+    "resonant_arcana:arcane_edge",
+    "resonant_arcana:bulwark_chant",
+    "resonant_arcana:battle_tempo",
+    "resonant_arcana:cinder_cleave",
+    "resonant_arcana:rime_thrust",
+    "resonant_arcana:blood_rend",
+    {
+      "id": "resonant_arcana:krakens_grasp",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:ice_spike_eruption",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:helvars_rift",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:krakens_wrath",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:krakens_undertow",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:yetis_glacial_wall",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:helvars_fracture",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:helvars_swordfall",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:sandworms_eruption",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:sandworms_quicksand",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:dragons_guard",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:dragons_pyre",
+      "required": false
+    },
+    "resonant_arcana:glacial_counter",
+    "resonant_arcana:rift_draw",
+    "resonant_arcana:crimson_reversal",
+    "resonant_arcana:thunderbrand",
+    "resonant_arcana:last_stand",
+    "resonant_arcana:ashen_rebirth",
+    "resonant_arcana:phantom_formation",
+    "resonant_arcana:funeral_bell",
+    "resonant_arcana:spellbreaker",
+    "resonant_arcana:astral_apocalypse",
+    "resonant_arcana:crimson_eclipse",
+    "resonant_arcana:world_pyre",
+    "resonant_arcana:void_coronation",
+    "resonant_arcana:heavens_thunder",
+    "resonant_arcana:rift_collision",
+    "resonant_arcana:soul_requiem",
+    "resonant_arcana:worldroot_catastrophe",
+    "resonant_arcana:final_judgement",
+    "resonant_arcana:eternal_winter",
+    "resonant_arcana:explosion",
+    "resonant_arcana:seraph_ascendant",
+    "resonant_arcana:arcane_devastator",
+    "resonant_arcana:i_am_atomic",
+    "resonant_arcana:doom_beam",
+    "resonant_arcana:void_exile",
+    "resonant_arcana:void_domain",
+    {
+      "id": "resonant_arcana:polarity_bolt",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:emp_surge",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:magnetar_annihilation",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:amber_talon",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:tectonic_stampede",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:lux_extinction",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:acid_glob",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:tremorzilla_breath",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:nuclear_strike",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:brine_bubble",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:hullbreaker_surge",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:abyssal_deluge",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:desolate_dagger",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:forsaken_sonar",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:forlorn_reckoning",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:gumball_volley",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:frostmint_hex",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:candy_catastrophe",
+      "required": false
+    },
+    "resonant_arcana:thunder_of_the_heavens",
+    "resonant_arcana:arcane_creation",
+    "resonant_arcana:crimson_apotheosis",
+    "resonant_arcana:solar_supernova",
+    "resonant_arcana:eventide_horizon",
+    "resonant_arcana:absolute_glaciation",
+    "resonant_arcana:verdant_awakening",
+    "resonant_arcana:heavens_covenant",
+    "resonant_arcana:soul_ascendancy",
+    {
+      "id": "resonant_arcana:planetary_polarity",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:primordial_sovereign",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:tremorzilla_cataclysm",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:abyssal_world_tide",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:forsaken_eclipse",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:confection_apocalypse",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:kraken_world_drown",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:yeti_world_heart",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:helvar_final_edict",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:sandworm_world_devourer",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:dragon_primordial_inferno",
+      "required": false
+    },
+    "resonant_arcana:orbital_ray",
+    "resonant_arcana:angel_scream",
+    "resonant_arcana:arcane_hand",
+    "resonant_arcana:spell_prism",
+    "resonant_arcana:blood_price",
+    "resonant_arcana:cinder_fuse",
+    "resonant_arcana:folded_passage",
+    "resonant_arcana:orbit_exchange",
+    "resonant_arcana:storm_rail",
+    "resonant_arcana:echo_decoy",
+    "resonant_arcana:choir_of_the_lost",
+    "resonant_arcana:mycelial_relay",
+    "resonant_arcana:martyrs_aegis",
+    "resonant_arcana:mirror_ice",
+    {
+      "id": "resonant_arcana:lodestone_snare",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:amber_stasis",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:fallout_bloom",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:pressure_bell",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:stolen_shadow",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:caramel_catapult",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:oathbreaker_chains",
+      "required": false
+    },
+    {
+      "id": "resonant_arcana:whiteout_hunt",
+      "required": false
+    },
+    "resonant_arcana:rho_aias",
+    "resonant_arcana:wardens_judgement",
+    "resonant_arcana:planet_befall",
+    "resonant_arcana:preserver_of_fortune",
+    "resonant_arcana:musou_shinsetsu",
+    "resonant_arcana:winds_grand_ode",
+    "resonant_arcana:celestial_shower"
+  ]
+}

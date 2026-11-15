@@ -1,0 +1,217 @@
+[
+  {
+    "spell": "DOOM",
+    "before": 256,
+    "after": 204.8
+  },
+  {
+    "spell": "ASTRAL_APOCALYPSE",
+    "before": 80,
+    "after": 64.0
+  },
+  {
+    "spell": "CRIMSON_ECLIPSE",
+    "before": 80,
+    "after": 64.0
+  },
+  {
+    "spell": "WORLD_PYRE",
+    "before": 72,
+    "after": 57.6
+  },
+  {
+    "spell": "VOID_CORONATION",
+    "before": 88,
+    "after": 70.4
+  },
+  {
+    "spell": "HEAVENS_THUNDER",
+    "before": 64,
+    "after": 51.2
+  },
+  {
+    "spell": "RIFT_COLLISION",
+    "before": 96,
+    "after": 76.8
+  },
+  {
+    "spell": "SOUL_REQUIEM",
+    "before": 96,
+    "after": 76.8
+  },
+  {
+    "spell": "WORLDROOT_CATASTROPHE",
+    "before": 72,
+    "after": 57.6
+  },
+  {
+    "spell": "FINAL_JUDGEMENT",
+    "before": 80,
+    "after": 64.0
+  },
+  {
+    "spell": "ETERNAL_WINTER",
+    "before": 40,
+    "after": 32.0
+  },
+  {
+    "spell": "EXPLOSION",
+    "before": 256,
+    "after": 204.8
+  },
+  {
+    "spell": "I_AM_ATOMIC",
+    "before": 512,
+    "after": 409.6
+  },
+  {
+    "spell": "DOOM_BEAM",
+    "before": 320,
+    "after": 256.0
+  },
+  {
+    "spell": "MAGNETAR_ANNIHILATION",
+    "before": 320,
+    "after": 256.0
+  },
+  {
+    "spell": "LUX_EXTINCTION",
+    "before": 80,
+    "after": 64.0
+  },
+  {
+    "spell": "NUCLEAR_STRIKE",
+    "before": 384,
+    "after": 307.2
+  },
+  {
+    "spell": "ABYSSAL_DELUGE",
+    "before": 72,
+    "after": 57.6
+  },
+  {
+    "spell": "FORLORN_RECKONING",
+    "before": 88,
+    "after": 70.4
+  },
+  {
+    "spell": "CANDY_CATASTROPHE",
+    "before": 72,
+    "after": 57.6
+  },
+  {
+    "spell": "THUNDER_OF_THE_HEAVENS",
+    "before": 96,
+    "after": 76.8
+  },
+  {
+    "spell": "ARCANE_CREATION",
+    "before": 140,
+    "after": 112.0
+  },
+  {
+    "spell": "CRIMSON_APOTHEOSIS",
+    "before": 120,
+    "after": 96.0
+  },
+  {
+    "spell": "SOLAR_SUPERNOVA",
+    "before": 960,
+    "after": 768.0
+  },
+  {
+    "spell": "EVENTIDE_HORIZON",
+    "before": 150,
+    "after": 120.0
+  },
+  {
+    "spell": "ABSOLUTE_GLACIATION",
+    "before": 120,
+    "after": 96.0
+  },
+  {
+    "spell": "VERDANT_AWAKENING",
+    "before": 90,
+    "after": 72.0
+  },
+  {
+    "spell": "HEAVENS_COVENANT",
+    "before": 80,
+    "after": 64.0
+  },
+  {
+    "spell": "SOUL_ASCENDANCY",
+    "before": 130,
+    "after": 104.0
+  },
+  {
+    "spell": "PLANETARY_POLARITY",
+    "before": 140,
+    "after": 112.0
+  },
+  {
+    "spell": "PRIMORDIAL_SOVEREIGN",
+    "before": 120,
+    "after": 96.0
+  },
+  {
+    "spell": "TREMORZILLA_CATACLYSM",
+    "before": 880,
+    "after": 704.0
+  },
+  {
+    "spell": "ABYSSAL_WORLD_TIDE",
+    "before": 150,
+    "after": 120.0
+  },
+  {
+    "spell": "FORSAKEN_ECLIPSE",
+    "before": 170,
+    "after": 136.0
+  },
+  {
+    "spell": "CONFECTION_APOCALYPSE",
+    "before": 140,
+    "after": 112.0
+  },
+  {
+    "spell": "KRAKEN_WORLD_DROWN",
+    "before": 160,
+    "after": 128.0
+  },
+  {
+    "spell": "YETI_WORLD_HEART",
+    "before": 150,
+    "after": 120.0
+  },
+  {
+    "spell": "HELVAR_FINAL_EDICT",
+    "before": 240,
+    "after": 192.0
+  },
+  {
+    "spell": "SANDWORM_WORLD_DEVOURER",
+    "before": 150,
+    "after": 120.0
+  },
+  {
+    "spell": "DRAGON_PRIMORDIAL_INFERNO",
+    "before": 160,
+    "after": 128.0
+  },
+  {
+    "spell": "ORBITAL_RAY",
+    "before": 384,
+    "after": 307.2
+  },
+  {
+    "spell": "CHOIR_OF_THE_LOST",
+    "before": 12,
+    "after": 9.6
+  },
+  {
+    "spell": "WARDENS_JUDGEMENT",
+    "before": 640,
+    "after": 512.0
+  }
+]

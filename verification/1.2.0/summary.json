@@ -1,0 +1,14 @@
+{
+  "version": "1.2.0",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.219",
+  "spells": 233,
+  "newSpells": 5,
+  "rebalancedSpells": 43,
+  "directDamageMultiplier": 0.8,
+  "configurationChecks": 54998,
+  "definitionChecks": 1167,
+  "dedicatedServerChecks": 51,
+  "graphicalClientTested": false,
+  "jarSha256": "bd9f800b5986263bab36b6460bae53652f9691d390e3f76bd0b837ed20ceba0a"
+}

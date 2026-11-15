@@ -2,7 +2,7 @@
 
 ## Current build
 
-Use Java 21 and `./gradlew clean visibilityChecks jar` from the repository root. The build targets Minecraft 1.21.1 / NeoForge 21.1.219 and Iron’s Spells 1.21.1-3.16.3. Iron’s API is resolved from its author’s Maven repository unless `libs/irons-spellbooks.jar` is supplied locally. Third-party runtime dependencies are not committed or bundled.
+Use Java 21 and `./gradlew clean visibilityChecks burstChecks jar` from the repository root. The build targets Minecraft 1.21.1 / NeoForge 21.1.219 and Iron’s Spells 1.21.1-3.16.3. Iron’s API is resolved from its author’s Maven repository unless `libs/irons-spellbooks.jar` is supplied locally. Third-party runtime dependencies are not committed or bundled.
 
 ## Source recovery status
 
@@ -33,3 +33,11 @@ Run `./gradlew runServer -Dresonant_arcana.integrationTest=true`. The opt-in ser
 ## Repository cleanup
 
 The 18 old alpha/0.x JARs, 11 retired school-wand wiki pages, stale source snapshot/resources and obsolete generators were removed from the active tree. Their history remains in the original repository. Player guides are stored in wiki/; automatic wiki publication is not enabled in this separate repository.
+
+## 1.2.0 update
+
+`Spell`, `ArcanaEffects`, `SpellCastingAnimations` and `SpellIndex` were reconciled from the exact 1.1.3 baseline for this update. They are recovered source, not a claim that the complete original source has been recovered. Existing enum order is retained; new constants are appended. Other baseline-only gameplay, animation/audio and integration classes remain unchanged.
+
+`ElementalBursts`, `BurstStatus` and `BurstClientEffects` implement the five new spells. `BurstServerChecks` is an opt-in development fixture, excluded from the release JAR. Run `./gradlew runServer -Dresonant_arcana.burstChecks=true` with runtime dependencies installed to generate `build/validation/burst-server-checks.json`. This fixture uses its own property; historical integration assertions contain old balance constants.
+
+The resource overlay replaces only matching paths from the baseline. `tools/generate_burst_assets.py` generates the five new icons, status icons, recipes, language entries and tags; it does not regenerate earlier artwork. `verification/1.2.0/balance-changes.json` records every changed damage value.
